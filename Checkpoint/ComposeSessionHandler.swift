@@ -78,7 +78,7 @@ class ComposeSessionHandler: NSObject, MEComposeSessionHandler {
         // sent, call the completion with an error.
         
         if SessionStore.shared.shouldPrompt {
-            SessionStore.shared.shouldPrompt = false
+//            SessionStore.shared.shouldPrompt = false  // FIXME: Enable sending after first round
             throw ComposeSessionError.checkpoint
         }
     }
