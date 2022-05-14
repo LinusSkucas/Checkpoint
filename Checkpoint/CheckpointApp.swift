@@ -2,7 +2,7 @@
 //  CheckpointApp.swift
 //  Checkpoint
 //
-//  Created by Linus Skucas on 12/17/21.
+//  Created by Linus Skucas on 5/13/22.
 //
 
 import SwiftUI

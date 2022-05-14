@@ -7,64 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		15C38AE7276DB8080092128D /* CheckpointApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C38AE6276DB8080092128D /* CheckpointApp.swift */; };
-		15C38AE9276DB8080092128D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C38AE8276DB8080092128D /* ContentView.swift */; };
-		15C38AEB276DB80B0092128D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15C38AEA276DB80B0092128D /* Assets.xcassets */; };
-		15C38AEE276DB80B0092128D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15C38AED276DB80B0092128D /* Preview Assets.xcassets */; };
-		15C38AFD276EC4420092128D /* MailExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C38AFC276EC4420092128D /* MailExtension.swift */; };
-		15C38AFF276EC4420092128D /* ComposeSessionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C38AFE276EC4420092128D /* ComposeSessionHandler.swift */; };
-		15C38B03276EC4420092128D /* ComposeSessionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15C38B02276EC4420092128D /* ComposeSessionViewController.xib */; };
-		15C38B08276EC4420092128D /* Checkpoint Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 15C38AFA276EC4420092128D /* Checkpoint Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		155C6123282F6DF200E26A22 /* CheckpointApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155C6122282F6DF200E26A22 /* CheckpointApp.swift */; };
+		155C6125282F6DF200E26A22 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155C6124282F6DF200E26A22 /* ContentView.swift */; };
+		155C6127282F6DF600E26A22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 155C6126282F6DF600E26A22 /* Assets.xcassets */; };
+		155C612A282F6DF600E26A22 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 155C6129282F6DF600E26A22 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		15C38B06276EC4420092128D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 15C38ADB276DB8080092128D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 15C38AF9276EC4420092128D;
-			remoteInfo = Checkpoint;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		15C38B0C276EC4420092128D /* Embed App Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				15C38B08276EC4420092128D /* Checkpoint Extension.appex in Embed App Extensions */,
-			);
-			name = "Embed App Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		15C38AE3276DB8080092128D /* Checkpoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Checkpoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		15C38AE6276DB8080092128D /* CheckpointApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckpointApp.swift; sourceTree = "<group>"; };
-		15C38AE8276DB8080092128D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		15C38AEA276DB80B0092128D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		15C38AED276DB80B0092128D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		15C38AEF276DB80B0092128D /* Checkpoint.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Checkpoint.entitlements; sourceTree = "<group>"; };
-		15C38AFA276EC4420092128D /* Checkpoint Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Checkpoint Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		15C38AFC276EC4420092128D /* MailExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailExtension.swift; sourceTree = "<group>"; };
-		15C38AFE276EC4420092128D /* ComposeSessionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeSessionHandler.swift; sourceTree = "<group>"; };
-		15C38B02276EC4420092128D /* ComposeSessionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ComposeSessionViewController.xib; sourceTree = "<group>"; };
-		15C38B04276EC4420092128D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		15C38B05276EC4420092128D /* Checkpoint.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Checkpoint.entitlements; sourceTree = "<group>"; };
+		155C611F282F6DF200E26A22 /* Checkpoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Checkpoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		155C6122282F6DF200E26A22 /* CheckpointApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckpointApp.swift; sourceTree = "<group>"; };
+		155C6124282F6DF200E26A22 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		155C6126282F6DF600E26A22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		155C6129282F6DF600E26A22 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		155C612B282F6DF600E26A22 /* Checkpoint.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Checkpoint.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		15C38AE0276DB8080092128D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		15C38AF7276EC4420092128D /* Frameworks */ = {
+		155C611C282F6DF200E26A22 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,114 +33,78 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		15C38ADA276DB8080092128D = {
+		155C6116282F6DF200E26A22 = {
 			isa = PBXGroup;
 			children = (
-				15C38AE5276DB8080092128D /* Checkpoint */,
-				15C38AFB276EC4420092128D /* Checkpoint */,
-				15C38AE4276DB8080092128D /* Products */,
+				155C6121282F6DF200E26A22 /* Checkpoint */,
+				155C6120282F6DF200E26A22 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		15C38AE4276DB8080092128D /* Products */ = {
+		155C6120282F6DF200E26A22 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				15C38AE3276DB8080092128D /* Checkpoint.app */,
-				15C38AFA276EC4420092128D /* Checkpoint Extension.appex */,
+				155C611F282F6DF200E26A22 /* Checkpoint.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		15C38AE5276DB8080092128D /* Checkpoint */ = {
+		155C6121282F6DF200E26A22 /* Checkpoint */ = {
 			isa = PBXGroup;
 			children = (
-				15C38AE6276DB8080092128D /* CheckpointApp.swift */,
-				15C38AE8276DB8080092128D /* ContentView.swift */,
-				15C38AEA276DB80B0092128D /* Assets.xcassets */,
-				15C38AEF276DB80B0092128D /* Checkpoint.entitlements */,
-				15C38AEC276DB80B0092128D /* Preview Content */,
+				155C6122282F6DF200E26A22 /* CheckpointApp.swift */,
+				155C6124282F6DF200E26A22 /* ContentView.swift */,
+				155C6126282F6DF600E26A22 /* Assets.xcassets */,
+				155C612B282F6DF600E26A22 /* Checkpoint.entitlements */,
+				155C6128282F6DF600E26A22 /* Preview Content */,
 			);
 			path = Checkpoint;
 			sourceTree = "<group>";
 		};
-		15C38AEC276DB80B0092128D /* Preview Content */ = {
+		155C6128282F6DF600E26A22 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				15C38AED276DB80B0092128D /* Preview Assets.xcassets */,
+				155C6129282F6DF600E26A22 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		15C38AFB276EC4420092128D /* Checkpoint */ = {
-			isa = PBXGroup;
-			children = (
-				15C38AFC276EC4420092128D /* MailExtension.swift */,
-				15C38AFE276EC4420092128D /* ComposeSessionHandler.swift */,
-				15C38B02276EC4420092128D /* ComposeSessionViewController.xib */,
-				15C38B04276EC4420092128D /* Info.plist */,
-				15C38B05276EC4420092128D /* Checkpoint.entitlements */,
-			);
-			path = Checkpoint;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		15C38AE2276DB8080092128D /* Checkpoint App */ = {
+		155C611E282F6DF200E26A22 /* Checkpoint */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 15C38AF2276DB80B0092128D /* Build configuration list for PBXNativeTarget "Checkpoint App" */;
+			buildConfigurationList = 155C612E282F6DF600E26A22 /* Build configuration list for PBXNativeTarget "Checkpoint" */;
 			buildPhases = (
-				15C38ADF276DB8080092128D /* Sources */,
-				15C38AE0276DB8080092128D /* Frameworks */,
-				15C38AE1276DB8080092128D /* Resources */,
-				15C38B0C276EC4420092128D /* Embed App Extensions */,
+				155C611B282F6DF200E26A22 /* Sources */,
+				155C611C282F6DF200E26A22 /* Frameworks */,
+				155C611D282F6DF200E26A22 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				15C38B07276EC4420092128D /* PBXTargetDependency */,
 			);
-			name = "Checkpoint App";
+			name = Checkpoint;
 			productName = Checkpoint;
-			productReference = 15C38AE3276DB8080092128D /* Checkpoint.app */;
+			productReference = 155C611F282F6DF200E26A22 /* Checkpoint.app */;
 			productType = "com.apple.product-type.application";
-		};
-		15C38AF9276EC4420092128D /* Checkpoint Extension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 15C38B09276EC4420092128D /* Build configuration list for PBXNativeTarget "Checkpoint Extension" */;
-			buildPhases = (
-				15C38AF6276EC4420092128D /* Sources */,
-				15C38AF7276EC4420092128D /* Frameworks */,
-				15C38AF8276EC4420092128D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Checkpoint Extension";
-			productName = Checkpoint;
-			productReference = 15C38AFA276EC4420092128D /* Checkpoint Extension.appex */;
-			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		15C38ADB276DB8080092128D /* Project object */ = {
+		155C6117282F6DF200E26A22 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
-					15C38AE2276DB8080092128D = {
-						CreatedOnToolsVersion = 13.1;
-					};
-					15C38AF9276EC4420092128D = {
+					155C611E282F6DF200E26A22 = {
 						CreatedOnToolsVersion = 13.1;
 					};
 				};
 			};
-			buildConfigurationList = 15C38ADE276DB8080092128D /* Build configuration list for PBXProject "Checkpoint" */;
+			buildConfigurationList = 155C611A282F6DF200E26A22 /* Build configuration list for PBXProject "Checkpoint" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -189,68 +112,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 15C38ADA276DB8080092128D;
-			productRefGroup = 15C38AE4276DB8080092128D /* Products */;
+			mainGroup = 155C6116282F6DF200E26A22;
+			productRefGroup = 155C6120282F6DF200E26A22 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				15C38AE2276DB8080092128D /* Checkpoint App */,
-				15C38AF9276EC4420092128D /* Checkpoint Extension */,
+				155C611E282F6DF200E26A22 /* Checkpoint */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		15C38AE1276DB8080092128D /* Resources */ = {
+		155C611D282F6DF200E26A22 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15C38AEE276DB80B0092128D /* Preview Assets.xcassets in Resources */,
-				15C38AEB276DB80B0092128D /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		15C38AF8276EC4420092128D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				15C38B03276EC4420092128D /* ComposeSessionViewController.xib in Resources */,
+				155C612A282F6DF600E26A22 /* Preview Assets.xcassets in Resources */,
+				155C6127282F6DF600E26A22 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		15C38ADF276DB8080092128D /* Sources */ = {
+		155C611B282F6DF200E26A22 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15C38AE9276DB8080092128D /* ContentView.swift in Sources */,
-				15C38AE7276DB8080092128D /* CheckpointApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		15C38AF6276EC4420092128D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				15C38AFF276EC4420092128D /* ComposeSessionHandler.swift in Sources */,
-				15C38AFD276EC4420092128D /* MailExtension.swift in Sources */,
+				155C6125282F6DF200E26A22 /* ContentView.swift in Sources */,
+				155C6123282F6DF200E26A22 /* CheckpointApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		15C38B07276EC4420092128D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 15C38AF9276EC4420092128D /* Checkpoint Extension */;
-			targetProxy = 15C38B06276EC4420092128D /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		15C38AF0276DB80B0092128D /* Debug */ = {
+		155C612C282F6DF600E26A22 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -311,7 +208,7 @@
 			};
 			name = Debug;
 		};
-		15C38AF1276DB80B0092128D /* Release */ = {
+		155C612D282F6DF600E26A22 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -365,10 +262,9 @@
 			};
 			name = Release;
 		};
-		15C38AF3276DB80B0092128D /* Debug */ = {
+		155C612F282F6DF600E26A22 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Checkpoint/Checkpoint.entitlements;
@@ -386,17 +282,16 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = sh.linus.CheckpointApp;
-				PRODUCT_NAME = Checkpoint;
+				PRODUCT_BUNDLE_IDENTIFIER = sh.linus.Checkpoint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		15C38AF4276DB80B0092128D /* Release */ = {
+		155C6130282F6DF600E26A22 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Checkpoint/Checkpoint.entitlements;
@@ -414,64 +309,8 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = sh.linus.CheckpointApp;
-				PRODUCT_NAME = Checkpoint;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		15C38B0A276EC4420092128D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = Checkpoint/Checkpoint.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = P6PV2R9443;
-				ENABLE_HARDENED_RUNTIME = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Checkpoint/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Checkpoint;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@executable_path/../../../../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = sh.linus.CheckpointApp.Checkpoint;
+				PRODUCT_BUNDLE_IDENTIFIER = sh.linus.Checkpoint;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		15C38B0B276EC4420092128D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = Checkpoint/Checkpoint.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = P6PV2R9443;
-				ENABLE_HARDENED_RUNTIME = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Checkpoint/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Checkpoint;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@executable_path/../../../../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = sh.linus.CheckpointApp.Checkpoint;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -480,34 +319,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		15C38ADE276DB8080092128D /* Build configuration list for PBXProject "Checkpoint" */ = {
+		155C611A282F6DF200E26A22 /* Build configuration list for PBXProject "Checkpoint" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				15C38AF0276DB80B0092128D /* Debug */,
-				15C38AF1276DB80B0092128D /* Release */,
+				155C612C282F6DF600E26A22 /* Debug */,
+				155C612D282F6DF600E26A22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		15C38AF2276DB80B0092128D /* Build configuration list for PBXNativeTarget "Checkpoint App" */ = {
+		155C612E282F6DF600E26A22 /* Build configuration list for PBXNativeTarget "Checkpoint" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				15C38AF3276DB80B0092128D /* Debug */,
-				15C38AF4276DB80B0092128D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		15C38B09276EC4420092128D /* Build configuration list for PBXNativeTarget "Checkpoint Extension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				15C38B0A276EC4420092128D /* Debug */,
-				15C38B0B276EC4420092128D /* Release */,
+				155C612F282F6DF600E26A22 /* Debug */,
+				155C6130282F6DF600E26A22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 15C38ADB276DB8080092128D /* Project object */;
+	rootObject = 155C6117282F6DF200E26A22 /* Project object */;
 }

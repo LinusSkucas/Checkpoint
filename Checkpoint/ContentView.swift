@@ -2,14 +2,14 @@
 //  ContentView.swift
 //  Checkpoint
 //
-//  Created by Linus Skucas on 12/17/21.
+//  Created by Linus Skucas on 5/13/22.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Enable the extension in Mail's preferences!")
+        Text("Hello, world!")
             .padding()
     }
 }
