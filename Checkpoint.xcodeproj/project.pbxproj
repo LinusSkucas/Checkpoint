@@ -11,7 +11,36 @@
 		155C6125282F6DF200E26A22 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155C6124282F6DF200E26A22 /* ContentView.swift */; };
 		155C6127282F6DF600E26A22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 155C6126282F6DF600E26A22 /* Assets.xcassets */; };
 		155C612A282F6DF600E26A22 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 155C6129282F6DF600E26A22 /* Preview Assets.xcassets */; };
+		15E0F465282F6F6B0073F2E8 /* MailExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E0F464282F6F6B0073F2E8 /* MailExtension.swift */; };
+		15E0F467282F6F6B0073F2E8 /* ComposeSessionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E0F466282F6F6B0073F2E8 /* ComposeSessionHandler.swift */; };
+		15E0F469282F6F6B0073F2E8 /* ComposeSessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E0F468282F6F6B0073F2E8 /* ComposeSessionViewController.swift */; };
+		15E0F46B282F6F6B0073F2E8 /* ComposeSessionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15E0F46A282F6F6B0073F2E8 /* ComposeSessionViewController.xib */; };
+		15E0F470282F6F6B0073F2E8 /* BodyScan.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 15E0F462282F6F6B0073F2E8 /* BodyScan.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15E0F46E282F6F6B0073F2E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 155C6117282F6DF200E26A22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15E0F461282F6F6B0073F2E8;
+			remoteInfo = BodyScan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		15E0F471282F6F6B0073F2E8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				15E0F470282F6F6B0073F2E8 /* BodyScan.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		155C611F282F6DF200E26A22 /* Checkpoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Checkpoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -20,10 +49,24 @@
 		155C6126282F6DF600E26A22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		155C6129282F6DF600E26A22 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		155C612B282F6DF600E26A22 /* Checkpoint.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Checkpoint.entitlements; sourceTree = "<group>"; };
+		15E0F462282F6F6B0073F2E8 /* BodyScan.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = BodyScan.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		15E0F464282F6F6B0073F2E8 /* MailExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailExtension.swift; sourceTree = "<group>"; };
+		15E0F466282F6F6B0073F2E8 /* ComposeSessionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeSessionHandler.swift; sourceTree = "<group>"; };
+		15E0F468282F6F6B0073F2E8 /* ComposeSessionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeSessionViewController.swift; sourceTree = "<group>"; };
+		15E0F46A282F6F6B0073F2E8 /* ComposeSessionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ComposeSessionViewController.xib; sourceTree = "<group>"; };
+		15E0F46C282F6F6B0073F2E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15E0F46D282F6F6B0073F2E8 /* BodyScan.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BodyScan.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		155C611C282F6DF200E26A22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15E0F45F282F6F6B0073F2E8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				155C6121282F6DF200E26A22 /* Checkpoint */,
+				15E0F463282F6F6B0073F2E8 /* BodyScan */,
 				155C6120282F6DF200E26A22 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				155C611F282F6DF200E26A22 /* Checkpoint.app */,
+				15E0F462282F6F6B0073F2E8 /* BodyScan.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -69,6 +114,19 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		15E0F463282F6F6B0073F2E8 /* BodyScan */ = {
+			isa = PBXGroup;
+			children = (
+				15E0F464282F6F6B0073F2E8 /* MailExtension.swift */,
+				15E0F466282F6F6B0073F2E8 /* ComposeSessionHandler.swift */,
+				15E0F468282F6F6B0073F2E8 /* ComposeSessionViewController.swift */,
+				15E0F46A282F6F6B0073F2E8 /* ComposeSessionViewController.xib */,
+				15E0F46C282F6F6B0073F2E8 /* Info.plist */,
+				15E0F46D282F6F6B0073F2E8 /* BodyScan.entitlements */,
+			);
+			path = BodyScan;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -79,15 +137,34 @@
 				155C611B282F6DF200E26A22 /* Sources */,
 				155C611C282F6DF200E26A22 /* Frameworks */,
 				155C611D282F6DF200E26A22 /* Resources */,
+				15E0F471282F6F6B0073F2E8 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				15E0F46F282F6F6B0073F2E8 /* PBXTargetDependency */,
 			);
 			name = Checkpoint;
 			productName = Checkpoint;
 			productReference = 155C611F282F6DF200E26A22 /* Checkpoint.app */;
 			productType = "com.apple.product-type.application";
+		};
+		15E0F461282F6F6B0073F2E8 /* BodyScan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15E0F474282F6F6B0073F2E8 /* Build configuration list for PBXNativeTarget "BodyScan" */;
+			buildPhases = (
+				15E0F45E282F6F6B0073F2E8 /* Sources */,
+				15E0F45F282F6F6B0073F2E8 /* Frameworks */,
+				15E0F460282F6F6B0073F2E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BodyScan;
+			productName = BodyScan;
+			productReference = 15E0F462282F6F6B0073F2E8 /* BodyScan.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -100,6 +177,9 @@
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
 					155C611E282F6DF200E26A22 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					15E0F461282F6F6B0073F2E8 = {
 						CreatedOnToolsVersion = 13.1;
 					};
 				};
@@ -118,6 +198,7 @@
 			projectRoot = "";
 			targets = (
 				155C611E282F6DF200E26A22 /* Checkpoint */,
+				15E0F461282F6F6B0073F2E8 /* BodyScan */,
 			);
 		};
 /* End PBXProject section */
@@ -129,6 +210,14 @@
 			files = (
 				155C612A282F6DF600E26A22 /* Preview Assets.xcassets in Resources */,
 				155C6127282F6DF600E26A22 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15E0F460282F6F6B0073F2E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15E0F46B282F6F6B0073F2E8 /* ComposeSessionViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,7 +233,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		15E0F45E282F6F6B0073F2E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15E0F467282F6F6B0073F2E8 /* ComposeSessionHandler.swift in Sources */,
+				15E0F469282F6F6B0073F2E8 /* ComposeSessionViewController.swift in Sources */,
+				15E0F465282F6F6B0073F2E8 /* MailExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15E0F46F282F6F6B0073F2E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15E0F461282F6F6B0073F2E8 /* BodyScan */;
+			targetProxy = 15E0F46E282F6F6B0073F2E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		155C612C282F6DF600E26A22 /* Debug */ = {
@@ -265,6 +372,7 @@
 		155C612F282F6DF600E26A22 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Checkpoint/Checkpoint.entitlements;
@@ -292,6 +400,7 @@
 		155C6130282F6DF600E26A22 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Checkpoint/Checkpoint.entitlements;
@@ -316,6 +425,62 @@
 			};
 			name = Release;
 		};
+		15E0F472282F6F6B0073F2E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = BodyScan/BodyScan.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P6PV2R9443;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BodyScan/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BodyScan;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sh.linus.Checkpoint.BodyScan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		15E0F473282F6F6B0073F2E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = BodyScan/BodyScan.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P6PV2R9443;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BodyScan/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BodyScan;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sh.linus.Checkpoint.BodyScan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -333,6 +498,15 @@
 			buildConfigurations = (
 				155C612F282F6DF600E26A22 /* Debug */,
 				155C6130282F6DF600E26A22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15E0F474282F6F6B0073F2E8 /* Build configuration list for PBXNativeTarget "BodyScan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15E0F472282F6F6B0073F2E8 /* Debug */,
+				15E0F473282F6F6B0073F2E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
