@@ -11,6 +11,7 @@
 		155C6125282F6DF200E26A22 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155C6124282F6DF200E26A22 /* ContentView.swift */; };
 		155C6127282F6DF600E26A22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 155C6126282F6DF600E26A22 /* Assets.xcassets */; };
 		155C612A282F6DF600E26A22 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 155C6129282F6DF600E26A22 /* Preview Assets.xcassets */; };
+		1599F9882A3453A900645DBA /* BodyScan.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1599F9872A3453A900645DBA /* BodyScan.xcassets */; };
 		15E0F465282F6F6B0073F2E8 /* MailExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E0F464282F6F6B0073F2E8 /* MailExtension.swift */; };
 		15E0F467282F6F6B0073F2E8 /* ComposeSessionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E0F466282F6F6B0073F2E8 /* ComposeSessionHandler.swift */; };
 		15E0F470282F6F6B0073F2E8 /* BodyScan.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 15E0F462282F6F6B0073F2E8 /* BodyScan.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -47,6 +48,7 @@
 		155C6126282F6DF600E26A22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		155C6129282F6DF600E26A22 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		155C612B282F6DF600E26A22 /* Checkpoint.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Checkpoint.entitlements; sourceTree = "<group>"; };
+		1599F9872A3453A900645DBA /* BodyScan.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = BodyScan.xcassets; sourceTree = "<group>"; };
 		15E0F462282F6F6B0073F2E8 /* BodyScan.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = BodyScan.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		15E0F464282F6F6B0073F2E8 /* MailExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailExtension.swift; sourceTree = "<group>"; };
 		15E0F466282F6F6B0073F2E8 /* ComposeSessionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeSessionHandler.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				15E0F466282F6F6B0073F2E8 /* ComposeSessionHandler.swift */,
 				15E0F46C282F6F6B0073F2E8 /* Info.plist */,
 				15E0F46D282F6F6B0073F2E8 /* BodyScan.entitlements */,
+				1599F9872A3453A900645DBA /* BodyScan.xcassets */,
 			);
 			path = BodyScan;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1599F9882A3453A900645DBA /* BodyScan.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
