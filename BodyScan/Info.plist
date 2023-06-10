@@ -6,6 +6,13 @@
 	<dict>
 		<key>NSExtensionAttributes</key>
 		<dict>
+			<key>MEComposeSession</key>
+			<dict>
+				<key>MEComposeIcon</key>
+				<string>ToolbarIcon</string>
+				<key>MEComposeIconToolTip</key>
+				<string>Checkpoint Clearance</string>
+			</dict>
 			<key>MEExtensionCapabilities</key>
 			<array>
 				<string>MEComposeSessionHandler</string>

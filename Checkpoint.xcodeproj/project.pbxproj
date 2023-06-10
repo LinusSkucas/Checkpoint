@@ -436,8 +436,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BodyScan/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = BodyScan;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_CFBundleDisplayName = Checkpoint;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Linus Skucas";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -464,8 +464,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BodyScan/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = BodyScan;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_CFBundleDisplayName = Checkpoint;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Linus Skucas";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
