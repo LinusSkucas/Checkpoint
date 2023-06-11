@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		152423EA2A3590A900BFBD33 /* ComposeSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152423E92A3590A900BFBD33 /* ComposeSessionView.swift */; };
+		152423ED2A35928A00BFBD33 /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152423EC2A35928A00BFBD33 /* SessionStore.swift */; };
 		155C6123282F6DF200E26A22 /* CheckpointApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155C6122282F6DF200E26A22 /* CheckpointApp.swift */; };
 		155C6125282F6DF200E26A22 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155C6124282F6DF200E26A22 /* ContentView.swift */; };
 		155C6127282F6DF600E26A22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 155C6126282F6DF600E26A22 /* Assets.xcassets */; };
@@ -42,6 +44,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		152423E92A3590A900BFBD33 /* ComposeSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeSessionView.swift; sourceTree = "<group>"; };
+		152423EC2A35928A00BFBD33 /* SessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
 		155C611F282F6DF200E26A22 /* Checkpoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Checkpoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		155C6122282F6DF200E26A22 /* CheckpointApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckpointApp.swift; sourceTree = "<group>"; };
 		155C6124282F6DF200E26A22 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -117,6 +121,8 @@
 			children = (
 				15E0F464282F6F6B0073F2E8 /* MailExtension.swift */,
 				15E0F466282F6F6B0073F2E8 /* ComposeSessionHandler.swift */,
+				152423E92A3590A900BFBD33 /* ComposeSessionView.swift */,
+				152423EC2A35928A00BFBD33 /* SessionStore.swift */,
 				15E0F46C282F6F6B0073F2E8 /* Info.plist */,
 				15E0F46D282F6F6B0073F2E8 /* BodyScan.entitlements */,
 				1599F9872A3453A900645DBA /* BodyScan.xcassets */,
@@ -235,6 +241,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				15E0F467282F6F6B0073F2E8 /* ComposeSessionHandler.swift in Sources */,
+				152423EA2A3590A900BFBD33 /* ComposeSessionView.swift in Sources */,
+				152423ED2A35928A00BFBD33 /* SessionStore.swift in Sources */,
 				15E0F465282F6F6B0073F2E8 /* MailExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

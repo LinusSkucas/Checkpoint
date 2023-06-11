@@ -9,6 +9,8 @@ import MailKit
 import SwiftUI
 
 class ComposeSessionHandler: NSObject, MEComposeSessionHandler {
+    
+    let sessionStore = SessionStore.shared
 
     func mailComposeSessionDidBegin(_ session: MEComposeSession) {
         // Perform any setup necessary for handling the compose session.
@@ -16,19 +18,25 @@ class ComposeSessionHandler: NSObject, MEComposeSessionHandler {
     
     func mailComposeSessionDidEnd(_ session: MEComposeSession) {
         // Perform any cleanup now that the compose session is over.
+        sessionStore.removeSession(session.sessionID)
     }
 
     // MARK: - Displaying Custom Compose Options
 
     func viewController(for session: MEComposeSession) -> MEExtensionViewController {
         let viewController = MEExtensionViewController()
-        viewController.view = NSHostingView(rootView: Text("Hello, World!"))
+        let rootView = ComposeSessionView(sessionID: session.sessionID).environmentObject(sessionStore)
+        viewController.view = NSHostingView(rootView: rootView)
         return viewController
     }
     
     func allowMessageSendForSession(_ session: MEComposeSession, completion: @escaping (Error?) -> Void) {
-        let checkpointError = MEComposeSessionError(MEComposeSessionError.Code.invalidBody, userInfo: [NSLocalizedDescriptionKey: "Checkpoint! Confirm that you want to send this."])
-        completion(checkpointError)
+        if sessionStore.promptingSessions.contains(session.sessionID) {
+            let checkpointError = MEComposeSessionError(MEComposeSessionError.Code.invalidBody, userInfo: [NSLocalizedDescriptionKey: "Checkpoint! Confirm that you want to send this."])
+            completion(checkpointError)
+        } else {
+            return completion(nil)
+        }
     }
 }
 
