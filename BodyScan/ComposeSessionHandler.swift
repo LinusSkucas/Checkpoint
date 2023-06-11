@@ -14,6 +14,7 @@ class ComposeSessionHandler: NSObject, MEComposeSessionHandler {
 
     func mailComposeSessionDidBegin(_ session: MEComposeSession) {
         // Perform any setup necessary for handling the compose session.
+        sessionStore.newSession(session.sessionID)
     }
     
     func mailComposeSessionDidEnd(_ session: MEComposeSession) {
@@ -31,7 +32,7 @@ class ComposeSessionHandler: NSObject, MEComposeSessionHandler {
     }
     
     func allowMessageSendForSession(_ session: MEComposeSession, completion: @escaping (Error?) -> Void) {
-        if sessionStore.promptingSessions.contains(session.sessionID) {
+        if sessionStore.shouldPromptForSession(session.sessionID) {
             let checkpointError = MEComposeSessionError(MEComposeSessionError.Code.invalidBody, userInfo: [NSLocalizedDescriptionKey: "Checkpoint! Confirm that you want to send this."])
             completion(checkpointError)
         } else {

@@ -8,15 +8,15 @@
 import SwiftUI
 
 struct ComposeSessionView: View {
-    @AppStorage("shouldDefaultToPrompting") var shouldDefaultToPrompting: Bool = false
+    @AppStorage(SessionStore.shouldDefaultToPromptingKey) var shouldDefaultToPrompting: Bool = false
     @EnvironmentObject var sessionStore: SessionStore
-    @State var shouldPrompt = false
+    @State var shouldWhitelistSession = true
     var sessionID: UUID
     
     var body: some View {
         VStack {
-            Toggle(isOn: $shouldPrompt) {
-                Text("\(shouldPrompt ? "Disable" : "Enable") Checkpoint")
+            Toggle(isOn: $shouldWhitelistSession) {
+                Text("\(shouldWhitelistSession ? "Enable" : "Disable") Checkpoint")
             }
             .controlSize(.large)
             .toggleStyle(.button)
@@ -30,16 +30,14 @@ struct ComposeSessionView: View {
             .controlSize(.small)
         }
         .onAppear {
-            if shouldDefaultToPrompting {
-                sessionStore.addSession(sessionID)
-            }
-            
-            if sessionStore.promptingSessions.contains(sessionID) {
-                shouldPrompt = true
+            if sessionStore.shouldPromptForSession(sessionID) {
+                shouldWhitelistSession = false
+            } else {
+                shouldWhitelistSession = true
             }
         }
-        .onChange(of: shouldPrompt, perform: { newValue in
-            if shouldPrompt {
+        .onChange(of: shouldWhitelistSession, perform: { newValue in
+            if shouldWhitelistSession {
                 sessionStore.addSession(sessionID)
             } else {
                 sessionStore.removeSession(sessionID)

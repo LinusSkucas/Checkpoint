@@ -8,16 +8,30 @@
 import SwiftUI
 
 class SessionStore: ObservableObject {
-    @Published var promptingSessions = [UUID]()
+    var whitelistedSessions = [UUID]()
     
     static var shared = SessionStore()
+    static let shouldDefaultToPromptingKey = "shouldDefaultToPrompting"
+    
+    /// When a new session is started, determine what to do to it
+    /// If Checkpoint is not autoenabled, the session will be added to the whitelist
+    func newSession(_ sessionID: UUID) {
+        guard !UserDefaults.standard.bool(forKey: Self.shouldDefaultToPromptingKey) else { return }
+        addSession(sessionID)
+    }
     
     func addSession(_ sessionID: UUID) {
-        guard !promptingSessions.contains(sessionID) else { return }
-        promptingSessions.append(sessionID)
+        guard !whitelistedSessions.contains(sessionID) else { return }
+        whitelistedSessions.append(sessionID)
     }
     
     func removeSession(_ sessionID: UUID) {
-        promptingSessions.removeAll { $0 == sessionID }
+        whitelistedSessions.removeAll { $0 == sessionID }
+    }
+    
+    /// Determine if Checkpoint should stop the message.
+    /// Checks if the session exists in the whitelist. If it does not, Checkpoint should prompt.
+    func shouldPromptForSession(_ sessionID: UUID) -> Bool {
+        return !whitelistedSessions.contains(sessionID)
     }
 }
