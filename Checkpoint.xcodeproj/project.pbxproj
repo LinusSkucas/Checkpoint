@@ -14,7 +14,7 @@
 		1599F9882A3453A900645DBA /* BodyScan.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1599F9872A3453A900645DBA /* BodyScan.xcassets */; };
 		15E0F465282F6F6B0073F2E8 /* MailExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E0F464282F6F6B0073F2E8 /* MailExtension.swift */; };
 		15E0F467282F6F6B0073F2E8 /* ComposeSessionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E0F466282F6F6B0073F2E8 /* ComposeSessionHandler.swift */; };
-		15E0F470282F6F6B0073F2E8 /* BodyScan.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 15E0F462282F6F6B0073F2E8 /* BodyScan.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		15E0F470282F6F6B0073F2E8 /* BodyScan.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 15E0F462282F6F6B0073F2E8 /* BodyScan.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,15 +28,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		15E0F471282F6F6B0073F2E8 /* Embed App Extensions */ = {
+		15E0F471282F6F6B0073F2E8 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				15E0F470282F6F6B0073F2E8 /* BodyScan.appex in Embed App Extensions */,
+				15E0F470282F6F6B0073F2E8 /* BodyScan.appex in Embed Foundation Extensions */,
 			);
-			name = "Embed App Extensions";
+			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -134,7 +134,7 @@
 				155C611B282F6DF200E26A22 /* Sources */,
 				155C611C282F6DF200E26A22 /* Frameworks */,
 				155C611D282F6DF200E26A22 /* Resources */,
-				15E0F471282F6F6B0073F2E8 /* Embed App Extensions */,
+				15E0F471282F6F6B0073F2E8 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
@@ -171,7 +171,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1310;
-				LastUpgradeCheck = 1310;
+				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					155C611E282F6DF200E26A22 = {
 						CreatedOnToolsVersion = 13.1;
@@ -284,6 +284,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -345,6 +346,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -375,6 +377,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Checkpoint/Preview Content\"";
 				DEVELOPMENT_TEAM = 39UWSCXL32;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -403,6 +406,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Checkpoint/Preview Content\"";
 				DEVELOPMENT_TEAM = 39UWSCXL32;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -428,6 +432,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 39UWSCXL32;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -456,6 +461,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 39UWSCXL32;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
