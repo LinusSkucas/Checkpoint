@@ -23,5 +23,7 @@
 		<key>NSExtensionPrincipalClass</key>
 		<string>$(PRODUCT_MODULE_NAME).MailExtension</string>
 	</dict>
+	<key>NSHumanReadableDescription</key>
+	<string>Enable Checkpoint in the toolbar when composing emails.</string>
 </dict>
 </plist>

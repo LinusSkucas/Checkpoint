@@ -436,6 +436,7 @@
 		15E0F472282F6F6B0073F2E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = BodyScan/BodyScan.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -446,7 +447,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BodyScan/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Checkpoint;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "Linus Skucas";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 Linus Skucas. All rights reserved.";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -465,6 +466,7 @@
 		15E0F473282F6F6B0073F2E8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = BodyScan/BodyScan.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -475,7 +477,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BodyScan/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Checkpoint;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "Linus Skucas";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 Linus Skucas. All rights reserved.";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
