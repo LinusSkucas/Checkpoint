@@ -1,43 +1,43 @@
 {
   "images" : [
     {
-      "filename" : "Artwork-17.png",
+      "filename" : "Artwork-23.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "16x16"
     },
     {
-      "filename" : "Artwork-15 1.png",
+      "filename" : "Artwork-22 1.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "16x16"
     },
     {
-      "filename" : "Artwork-15.png",
+      "filename" : "Artwork-22.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "32x32"
     },
     {
-      "filename" : "Artwork-16.png",
+      "filename" : "Artwork-21.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "32x32"
     },
     {
-      "filename" : "Artwork-14.png",
+      "filename" : "Artwork-19.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "128x128"
     },
     {
-      "filename" : "Artwork-11 1.png",
+      "filename" : "Artwork-18 1.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "128x128"
     },
     {
-      "filename" : "Artwork-11.png",
+      "filename" : "Artwork-18.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "256x256"
