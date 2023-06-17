@@ -30,7 +30,7 @@ struct ComposeSessionView: View {
             Spacer()
             
             Toggle(isOn: $shouldDefaultToPrompting) {
-                Text("Enable by Default")
+                Text("Enable by default")
             }
             .controlSize(.small)
         }
