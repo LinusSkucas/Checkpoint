@@ -27,6 +27,7 @@ struct ContentView: View {
                     InstructionView(image: Image(nsImage: mailIcon), instructionText: "Open **Mail**")
                     InstructionView(symbol: "puzzlepiece", instructionText: "In **Settings**, select **Extensions**")
                     InstructionView(symbol: "checkmark", instructionText: "Enable **Checkpoint**")
+                    InstructionView(symbol: "checkerboard.shield", instructionText: "While **composing**, click the **shield** in the toolbar to enable Checkpoint.")
                 }
             } label: {
                 Text("To get started:")
@@ -36,7 +37,6 @@ struct ContentView: View {
             }
         }
         .padding()
-        .fixedSize(horizontal: true, vertical: false)
     }
 }
 
