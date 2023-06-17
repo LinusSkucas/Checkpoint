@@ -16,11 +16,16 @@ struct ComposeSessionView: View {
     var body: some View {
         VStack {
             Toggle(isOn: $shouldWhitelistSession) {
-                Text("\(shouldWhitelistSession ? "Enable" : "Disable") Checkpoint")
+                ZStack {
+                    Text("\(shouldWhitelistSession ? "Enable" : "Disable") Checkpoint")
+                    Text("Disable Checkpoint")  // Make the button big enough so it doesn't clip
+                        .hidden()
+                }
             }
             .controlSize(.large)
             .toggleStyle(.button)
             .keyboardShortcut(.defaultAction)
+            .padding(.bottom, 9)
             
             Spacer()
             
@@ -44,6 +49,5 @@ struct ComposeSessionView: View {
             }
         })
         .padding()
-        .frame(width: 175, height: 90)
     }
 }
